@@ -11,7 +11,7 @@ public class OB {
 	
 
 	public static void main(String[] args) {
-//		System.setProperty("webdriver.chrome.driver", "D:\\ChromeDriver87\\chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver", "D:\\ChromeDriver87\\chromedriver.exe");
 		ChromeDriver driver = new ChromeDriver();
 //		driver.get("https://www.wikipedia.org/");
 //		driver.findElement(By.xpath("//select[@id='searchLanguage']")).sendKeys("Esperanto");
@@ -35,10 +35,7 @@ public class OB {
 //			System.out.println(link.getText());
 //		}
 		
-		driver.get("http://www.ijetrm.com/");
-		driver.get("http://www.ijetrm.com/issue/");
-		driver.findElement(By.xpath("//a[@class='issuelink']")).click();
-		driver.findElement(By.xpath("//a[@href= 'http://www.ijetrm.com/issues/files/Jan-2020-01-1577875288-1.pdf']")).click();
+		driver.get("next.testmd.co.uk");
 	}
 
 }
